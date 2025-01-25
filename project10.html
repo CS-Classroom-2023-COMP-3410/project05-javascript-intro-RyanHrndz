@@ -1,0 +1,27 @@
+<!-- HTML for Keyboard Trainer -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Trainer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="keyboard-trainer">
+        <h1>Keyboard Trainer</h1>
+        <div id="text-container">
+            <p id="text-to-type">Click "Start" to begin typing practice!</p>
+        </div>
+        <input type="text" id="user-input" disabled placeholder="Start typing here...">
+        <div id="controls">
+            <button id="start-trainer">Start</button>
+        </div>
+        <div id="results" style="display: none;">
+            <p id="wpm"></p>
+            <p id="accuracy"></p>
+        </div>
+    </div>
+    <script src="js/keyboardTrainer.js"></script>
+</body>
+</html>

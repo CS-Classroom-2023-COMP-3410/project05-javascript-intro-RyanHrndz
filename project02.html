@@ -1,0 +1,23 @@
+<!-- HTML for Interactive To-Do List -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="todo-app">
+        <input type="text" id="new-task" placeholder="Enter a new task">
+        <button id="add-task">Add Task</button>
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="pending">Pending</option>
+        </select>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="js/todo.js"></script>
+</body>
+</html>

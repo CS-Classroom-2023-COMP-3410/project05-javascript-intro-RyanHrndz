@@ -1,0 +1,26 @@
+<!-- HTML for Sorting Visualization Tool -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualization Tool</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="sorting-tool">
+        <h1>Sorting Visualization Tool</h1>
+        <div id="controls">
+            <label for="algorithm">Select Algorithm: </label>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+            </select>
+            <button id="start-sort">Start Sort</button>
+            <button id="generate-array">Generate New Array</button>
+        </div>
+        <div id="array-container"></div>
+    </div>
+    <script src="js/sortingTool.js"></script>
+</body>
+</html>
